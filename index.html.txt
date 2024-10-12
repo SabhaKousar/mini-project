@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Editkaro.in Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#short-form">Short Form</a></li>
+                <li><a href="#long-form">Long Form</a></li>
+                <li><a href="#gaming">Gaming</a></li>
+                <li><a href="#football">Football Edits</a></li>
+                <li><a href="#ads">eCommerce Ads</a></li>
+                <li><a href="#documentary">Documentary Style</a></li>
+                <li><a href="#anime">Anime</a></li>
+                <li><a href="#color-grading">Color Grading</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portfolio">
+        <h2>Our Work</h2>
+
+        <div class="category" id="short-form">
+            <h3>Short Form Videos</h3>
+            <div class="video-container">
+                <div class="video-card">
+                    <video src="videos/short-form1.mp4" controls></video>
+                    <p>Short Form 1</p>
+                </div>
+                <div class="video-card">
+                    <video src="videos/short-form2.mp4" controls></video>
+                    <p>Short Form 2</p>
+                </div>
+                <div class="video-card">
+                    <video src="videos/short-form3.mp4" controls></video>
+                    <p>Short Form 3</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category" id="long-form">
+            <h3>Long Form Videos</h3>
+            <div class="video-container">
+                <div class="video-card">
+                    <video src="videos/long-form1.mp4" controls></video>
+                    <p>Long Form 1</p>
+                </div>
+                <div class="video-card">
+                    <video src="videos/long-form2.mp4" controls></video>
+                    <p>Long Form 2</p>
+                </div>
+                <div class="video-card">
+                    <video src="videos/long-form3.mp4" controls></video>
+                    <p>Long Form 3</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category" id="gaming">
+            <h3>Gaming Videos</h3>
+            <div class="video-container">
+                <div class="video-card">
+                    <video src="videos/gaming1.mp4" controls></video>
+                    <p>Gaming Video 1</p>
+                </div>
+                <div class="video-card">
+                    <video src="videos/gaming2.mp4" controls></video>
+                    <p>Gaming Video 2</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add similar blocks for other categories like Football, Ads, Documentary, Anime, etc. -->
+    </section>
+
+    <footer>
+        <p>© 2024 Editkaro.in - All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
